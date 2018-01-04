@@ -1,0 +1,227 @@
+<extend name="public/base"/>
+<block name="distcss">
+    <link href="__PUBLIC__/home/css/reset.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+.title{
+	width: 100%;
+	height: 0.4rem;
+	background:#15204e;
+}
+.title>P{
+	color: #fff;
+	line-height: 0.4rem;
+	width: 100%;
+	text-align: center;
+    font-size: 0.12rem;
+}
+.per {
+    width:100%;
+    overflow: hidden;
+}
+.avatar {
+    float:left;
+    padding-left:0.1rem;
+    
+}
+.avatar img {
+    float: left;
+    width: 0.7rem;
+    margin-top: 0.1rem;
+    margin-right: 0.1rem;
+}
+.avatar .signature {
+    float:right;
+}
+.signature .name {
+    font-size:0.24rem;
+}
+.signature .sign {
+    font-size:0.15rem;
+    color:#999;
+    margin-top: 0.2rem;
+}
+.signature {
+    padding-top:0.2rem;
+}
+.date {
+    float: right;
+    margin-right: 0.12rem;
+    padding-top:0.2rem;
+}
+.date p {
+    height:0.1rem;
+    font-size:0.17rem;
+    color: #999;
+}
+.comment {
+    font-size: 0.2rem;
+    margin:0.2rem;
+    color:#6e6e6e;
+}
+.img {
+    width: 100%;
+}
+.img ul {
+    width:100%;
+    padding-left:0.1rem;
+    padding-right:0.1rem;
+    overflow: hidden;
+    border-bottom:1px solid #ccc;
+    padding-bottom: 0.2rem;
+}
+.img ul>li {
+    width:32%;
+    float:left;
+    margin-left:0.03rem;
+    margin-bottom: 0.03rem;
+}
+.img img {
+    width: 100%;
+}
+.other{
+    width: 2.9rem;
+    margin:0 auto;
+    font-size: 0.2rem;
+    overflow: hidden;
+}
+.other img {
+    width: 0.3rem;
+    vertical-align: middle;
+}
+.star {
+    float: left;
+}
+.star li{
+    float: left;
+}
+.zan {
+    float: right;
+}
+.zan li {
+    float: right;
+}
+.last {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 6px solid #f2f2f2;
+}
+.num {
+    margin-top: 0.05rem;
+    margin-left: 0.07rem;
+}
+.praise {
+    width: 0.2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+}
+.jia span {
+    font-size: 0.14rem;
+    display: inline-block;
+    margin-top: 0.25rem;
+    margin-left: 0.08rem;
+}
+.jia-zan {
+    width: 100%;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 0.2rem;
+    padding-left: 0.9rem;
+    margin-top: 0.2rem;
+    font-size: 0.14rem;
+    color: #999;
+}
+.discuss {
+    width: 100%;
+    height: 0.5rem;
+    background-color: #f2f2f2;
+    padding-left: 0.45rem;
+    padding-top: 0.1rem;
+}
+.discuss input{
+    width: 2.7rem;
+    height: 0.3rem;
+    border: none;
+}
+.discuss span {
+    display: inline-block;
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+}
+    </style>
+    </block>
+</head>
+<block name="content">
+    <div class="title">
+        <p>浙大新网</p>
+    </div>
+    <div class="main">
+        <div class="per">
+            <div class="avatar">
+                <img src="__PUBLIC__/home/images/avatar.jpg" alt="">
+            <div class="signature">
+                    <p class="name">纳兰容若</p>
+                    <p class="sign">小主还没有签名哦！</p>
+            </div>
+            </div>
+            <div class="date">
+                <p>2017-12-22</p>
+            </div>
+        </div>
+        <p class="comment">超级喜欢的色系</p>
+        <div class="img">
+            <ul>
+                <li><img src="__PUBLIC__/home/images/img1.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/home/images/img2.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/home/images/img3.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/home/images/img1.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/home/images/img2.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/home/images/img3.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="last">
+            <div class="other">
+                <ul class="star">
+                    <li><img src="__PUBLIC__/home/images/star.jpg" alt=""></li>
+                    <li class="num">1</li>
+                </ul>
+                <ul class="zan">
+                        <li class="num">1</li>
+                        <li><img src="__PUBLIC__/home/images/zan.jpg" alt=""></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="per">
+            <div class="avatar">
+                <img src="__PUBLIC__/home/images/per1.jpg" alt="">
+            <div class="signature">
+                    <p class="name">家家</p>
+                    <p class="sign">小主还没有签名哦！</p>
+            </div>
+            </div>
+            <div class="date jia">
+                <p>2017-12-22</p>
+                <img src="__PUBLIC__/home/images/zan.jpg" alt="" class="praise"><span>1</span>
+            </div>
+    </div>
+    <p class="jia-zan">赞</p>
+    <div class="per">
+            <div class="avatar">
+                <img src="__PUBLIC__/home/images/per1.jpg" alt="">
+            <div class="signature">
+                    <p class="name">家家</p>
+                    <p class="sign">小主还没有签名哦！</p>
+            </div>
+            </div>
+            <div class="date jia">
+                <p>2017-12-22</p>
+                <img src="__PUBLIC__/home/images/zan.jpg" alt="" class="praise"><span>1</span>
+            </div>
+    </div>
+    <p class=" jia-zan">赞</p>
+    <div class="discuss">
+        <input type="text"><span>评论</span>
+    </div>
+</block>

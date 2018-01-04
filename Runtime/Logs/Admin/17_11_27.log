@@ -1,0 +1,982 @@
+[ 2017-11-27T16:36:20+08:00 ] 115.206.246.122 /index.php/Admin/index/upfacilitator/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-11-27T16:36:22+08:00 ] 115.206.246.122 /index.php/Admin/index/upfacilitator/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-11-27T16:36:46+08:00 ] 115.206.246.122 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 349 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 354 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: s /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 375 行.
+NOTIC: [8] Undefined variable: w /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 375 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 375 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-11-27T16:36:53+08:00 ] 115.206.246.122 /index.php/Admin/index/accout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-11-27T16:59:59+08:00 ] 115.206.246.122 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 349 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 354 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: s /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 375 行.
+NOTIC: [8] Undefined variable: w /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 375 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 375 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-11-27T17:00:03+08:00 ] 115.206.246.122 /index.php/Admin/index/upfacilitator/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-11-27T17:16:35+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-11-27T17:16:35+08:00 ] 115.206.246.122 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-11-27T17:17:16+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-11-27T17:17:16+08:00 ] 115.206.246.122 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-11-27T19:04:02+08:00 ] 115.206.246.122 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 25 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-11-27T19:04:04+08:00 ] 115.206.246.122 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 358 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 363 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: s /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [8] Undefined variable: w /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-11-27T19:04:08+08:00 ] 115.206.246.122 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 358 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 363 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: s /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [8] Undefined variable: w /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2017-11-27T19:04:13+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-11-27T19:04:18+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 24  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-11-27T19:04:26+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-11-27T19:10:14+08:00 ] 115.206.246.122 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0032s ]
+
+[ 2017-11-27T19:10:14+08:00 ] 115.206.246.122 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-11-27T19:10:20+08:00 ] 115.206.246.122 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `users` WHERE `name` = 'admin' AND `pwds` = '21232f297a57a5a743894a0e4a801fc3'  [ RunTime:0.0035s ]
+
+[ 2017-11-27T19:10:20+08:00 ] 115.206.246.122 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-11-27T19:10:26+08:00 ] 115.206.246.122 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `users` WHERE `name` = 'admins' AND `pwds` = '21232f297a57a5a743894a0e4a801fc3'  [ RunTime:0.0033s ]
+
+[ 2017-11-27T19:10:26+08:00 ] 115.206.246.122 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0034s ]
+
+[ 2017-11-27T19:10:26+08:00 ] 115.206.246.122 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-11-27T19:10:31+08:00 ] 115.206.246.122 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `users` WHERE `name` = 'admin' AND `pwds` = 'e10adc3949ba59abbe56e057f20f883e'  [ RunTime:0.0037s ]
+
+[ 2017-11-27T19:10:31+08:00 ] 115.206.246.122 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 25 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-11-27T19:10:36+08:00 ] 115.206.246.122 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 358 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 363 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: s /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [8] Undefined variable: w /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-11-27T19:11:57+08:00 ] 115.206.246.122 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 358 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 363 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: s /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [8] Undefined variable: w /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given /bweb/www.buy297.com/wangxin/Admin/Controller/IndexController.class.php 第 384 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 169 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/27606d6fdcd443905fb7970b3478e4b7.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-11-27T19:13:10+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 24  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2017-11-27T19:13:15+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 24  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-11-27T19:13:20+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 3  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-11-27T19:13:24+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-11-27T19:18:00+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-11-27T19:18:01+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-11-27T19:18:02+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 103 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 106 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 109 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-11-27T20:31:32+08:00 ] 115.206.246.122 /index.php/Admin/index/aboutc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 1  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 104 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 107 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 110 行.
+NOTIC: [8] Undefined variable: item /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' /bweb/www.buy297.com/wangxin/Runtime/Cache/Admin/bd617b86504296f458c086a80c3dcd46.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-11-27T20:31:35+08:00 ] 115.206.246.122 /index.php/Admin/complain/huodong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.0035s ]
+ERR: 模板不存在:./wangxin/Admin/View/Complain/huodong.html
+
+[ 2017-11-27T20:31:57+08:00 ] 115.206.246.122 /index.php/Admin/complain/huodong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-11-27T20:31:59+08:00 ] 115.206.246.122 /index.php/admin/Complain/huodong?action=config&&noCache=1511785977253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-11-27T20:32:23+08:00 ] 115.206.246.122 /index.php/Admin/Complain/huodong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.0041s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /bweb/www.buy297.com/wangxin/Admin/Controller/ComplainController.class.php on line 113 and defined /bweb/www.buy297.com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /bweb/www.buy297.com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: INSERT INTO `huodong` (`content`,`title`) VALUES ('&lt;p style=&quot;text-align: center;&quot;&gt;KJGFJGJ&lt;/p&gt;&lt;p&gt;HFDGDFGH&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;KJFGJFJH&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;','JKFJH') [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-11-27T20:32:24+08:00 ] 115.206.246.122 /index.php/admin/Complain/huodong?action=config&&noCache=1511786002200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+

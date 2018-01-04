@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<form>
+
+<input type="file" name="" onclick="if(confirm('确认删除')){return true;}else{return false;}">
+</form>
+<body>
+<div class="btnList">
+               <ul>
+                   <li id="a"><a href="http://image.peikua.com//static/apk/peikuahaitao-2.0.1.apk">应用下载</a></li> <!--默认apk下载地址，除微信外浏览器都支持-->
+                   <li id="b"><a href="market://search?q=pname:com.zq.qk">应用平台下载</a></li> <!--调用安卓下载地址，会判断手机内已装应用商店下载弹框-->
+                   <li><span>下载APP即可使用优惠券大礼包</span></li>
+                <ul>
+    </div>
+</body>
+<script type="text/javascript">
+js：　　$(document).ready(function() {
+           downloaded();
+        }); 
+     function downloaded(){
+            var ua = navigator.userAgent.toLowerCase();
+            if(ua.match(/MicroMessenger/i)=="micromessenger") {//如果是微信浏览器
+                $('#a').find('a').attr('href','http://app.qq.com/?isappinstalled=1#id=detail&appid=1104762859');//将第一个链接转换成应用宝里链接，并获取appId
+                $('#b').find('a').attr('href','http://fusion.qq.com/app_download?appid=1104762859&platform=qzone&via=QZ.MOBILEDETAIL.QRCODE');  //一种判断手机装的应用商店方式，可直接替换appId.      
+            }
+        }
+</script>
+</html>

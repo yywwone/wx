@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+
+<div>
+    <!--下载附件功能-->
+    <a href="__PUBLIC__/home/css/about.css" download="css文件">下载附件</a>
+    <!--获取excel表内容并取出来用-->
+    <form action="{:U('index/gncs')}" method="post" enctype="multipart/form-data">
+        上传excel：<input type="file" name="file" id="file" />
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+
+
+</body>
+</html>

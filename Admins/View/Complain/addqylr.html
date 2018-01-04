@@ -1,0 +1,108 @@
+<extend name="Comm:base"/>
+<block name="link">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/aboutc.css"/>   
+<link href="__PUBLIC__/admin/css/reset1.css" rel="stylesheet" /> 
+    </block>
+<block name="con">
+	<div style="margin-left:34%">
+      <form method="post" action="{:U('Complain/addqylr')}">
+
+<input type="text" name="name" placeholder="录入信息名称" id="goname">
+<input type="text" name="yunm" placeholder="录入信息英文名" onKeyUp="value=value.replace(/[^a-zA-Z]/g,'')" id="goyuan">
+<input type="submit" id='submit' style="margin-top:-10px">
+      </form>
+
+	</div>
+   <div class="box">
+      
+            <h2>企业录入信息状态修改</h2>
+        <div class="xq_main">
+        	<table border="1">
+                 <tr>
+                 	<th>现有信息</th>
+                 	<th>状态操作</th>
+                 	<!-- <th></th> -->
+                 </tr>
+               
+                    
+                 
+        	
+        	<volist name="con" id="v">
+        	  <tr>
+                  <td width="300"><span style="width:100px;height:30px;margin-left:25%;text-align:center">
+
+                  {$v['inputname']}
+              </span></td>
+                      <td width="300">
+                      	<span style="width:100px;height:30px;margin-left:25%;text-align:center">
+				          <a href="{:U('Complain/qylr',array('id'=>$v["id"],'state'=>'1'))}"> 
+				             <eq name="v['inputstatus']" value='1'>
+				              <div style="border:1px solid #ccc;border-radius:8px;width:100px;height:30px;text-align:center;line-height:30px">
+				              点击停用
+				              </div>
+				            <else/>
+				            <div style="border:1px solid green;border-radius:8px;width:100px;height:30px;text-align:center;line-height:30px">
+				              点击可用
+				            </div>
+				             </eq>
+				          </a>
+				          </span>
+                      </td>
+              </tr>
+            </volist>
+        </table>
+        </div>
+      
+		<!-- 底部栏显示标识 -->
+	  </div>
+	 </block>
+        <block name="src">
+        <script src="__PUBLIC__/admin/js/jquery-1.11.1.min.js"></script>
+        <script src="__PUBLIC__/admin/js/font_440400_waj7qmu35o2yb9.js"></script>
+        <!-- <script src="__PUBLIC__/admin/js/rem.js"></script> -->
+  <script type="text/javascript">
+  	$(function(){
+		  	function a11(){
+		  		var a=$('#goname').val();
+				var b=$('#goyuan').val();
+				if(a==''||b==''){
+				  $('#submit').attr('disabled','disabled')
+				}else {
+				  $('#submit').removeAttr("disabled")
+				}
+		  	}
+		   $('#goname').blur(function(){
+		    value = $('#goname').val();
+		    a11()
+		     $.ajax({
+		            type:"post",
+		            url:'{:U("/Admin/Complain/ajaxacc")}',
+		            data:'name='+value,
+		            // data:{"name":$('#goname').val(),"yuan":yuan},
+		            
+		            success:function(status){
+		                if(status==1){
+		                alert('企业名重复');
+		                $('#goname').val("");
+		                }
+		            },
+		            error:function(res){
+		               alert('系统错误');
+		            }
+		        });
+		    
+   		 })
+		$('#goyuan').blur(function(){
+		    yuan = $('#goyuan').val();
+		    a11()
+		   })
+		 $('#goname').keydown(function(){
+		    	 a11()
+		    });
+		    $('#goyuan').keydown(function(){
+		    	 a11()
+		    });
+	})
+  </script>
+        </block>
+

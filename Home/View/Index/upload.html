@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link href="__PUBLIC__/home/dist/css/reset1.css" rel="stylesheet">
+	<link href="__PUBLIC__/home/dist/css/upfile.css" rel="stylesheet">
+
+</head>
+<body>
+<ul class="ulList" id="ulList">
+</ul>
+<div class="upfile_box">
+<p>附件上传</p>
+<input class="upfile" id="upload" onchange="change();" multiple type="file" value="附件上传" /><br />
+</div>
+<input type="submit" class="submit">
+<script src="__PUBLIC__/home/dist/js/rem.js"></script>
+<script src="__PUBLIC__/home/dist/js/jquery-1.11.1.min.js"></script>
+<script>
+function change() {	
+	var obj = document.getElementById("upload");
+	var len = obj.files.length;
+	var fragment = "";
+	for (var i = 0; i < len; i++) {
+	var temp = obj.files[i].name;
+	
+	}
+	
+	fragment += "<li>" + temp +"<span>" + "×" + "</span>" + "</li>";
+	 $("#ulList").append(fragment);
+
+	 $('span').click(function () {
+	$(this).parents('li').remove();
+})
+}		
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<extend name="Comm:base"/>
+<block name="link">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/aboutc.css"/>   
+<link href="__PUBLIC__/admin/css/reset1.css" rel="stylesheet" /> 
+    </block>
+<block name="con">
+ 
+		<!--<div class="company-banner-box">-->
+			<!--<img src="__UPLOAD__/{$item.image}">-->
+		<!--</div>-->
+		<!--<div class="company-logo-box">-->
+			<!--<h1>{$item.name}</h1>-->
+		<!--</div>-->
+		<!--<p class="p-main">-->
+			<!--&lt;!&ndash;{$item.xiangqing}&ndash;&gt;-->
+            <!--<svg class="a11_iocn" aria-hidden="true">-->
+                <!--<use xlink:href="#icon-shouye"></use>-->
+            <!--</svg>-->
+		<!--</p>-->
+		<!--<div class="honor">-->
+			<!--<h3>企业荣誉</h3>-->
+			<!--<p class="honor-main">-->
+				<!--{$item.qy_rongyu}-->
+			<!--</p>-->
+		<!--</div>-->
+   <div class="box">
+            <h2>{$con['title']}</h2>
+        
+            <div class="xq_main_text">
+                {:htmlspecialchars_decode($con['content'])}
+            </div>
+        </div>
+		<!-- 底部栏显示标识 -->
+	</div>
+        <block name="src">
+        <script src="__PUBLIC__/admin/js/jquery-1.11.1.min.js"></script>
+        <script src="__PUBLIC__/admin/js/font_440400_waj7qmu35o2yb9.js"></script>
+        <!-- <script src="__PUBLIC__/admin/js/rem.js"></script> -->
+        </block>
+ </block>

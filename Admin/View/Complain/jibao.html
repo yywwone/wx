@@ -1,0 +1,166 @@
+<extend name="Comm:base"/>
+<block name="link">
+    <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css"/>       
+        <link href="__PUBLIC__/admin/css/codemirror.css" rel="stylesheet">
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/ace.min.css" />
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.min.css" />
+    <script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+    <script type="text/javascript">
+      window.jQuery || document.write("<script src='__PUBLIC__/admin/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+    </script>
+    <script type="text/javascript">
+      if("ontouchend" in document) document.write("<script src='__PUBLIC__/admin/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    </script>
+    <script src="__PUBLIC__/admin/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/admin/js/typeahead-bs2.min.js"></script>
+    <!-- page specific plugin scripts -->
+    <script src="__PUBLIC__/admin/js/jquery.dataTables.min.js"></script>
+    <script src="__PUBLIC__/admin/js/jquery.dataTables.bootstrap.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.js"></script> 
+        <script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.admin.js"></script> 
+        <script src="__PUBLIC__/admin/layer/layer.js" type="text/javascript" ></script>
+        <script src="__PUBLIC__/admin/laydate/laydate.js" type="text/javascript"></script>
+  </block>
+<block name="con">
+  <div class="page-content clearfix">
+    <div id="Member_Ratings">
+      <div class="d_Confirm_Order_style">
+    <div class="search_style">
+      <div class="title_names">搜索查询</div>
+      <ul class="search_content clearfix">
+         <form method="post" action="{:U('Complain/jibao')}">
+           <li><label class="l_f">公司名称</label><input name="company" type="text"  class="text_add" placeholder="输入公司名称"  style=" width:400px"/></li>
+           <!-- <li><label class="l_f">添加时间</label><input class="inline laydate-icon" id="start" style=" margin-left:10px;"></li> -->
+           <li style="width:120px;"><input type="submit" class="btn_search" value="查询"></input></li>
+         </form>
+      </ul>
+    </div>
+     <!---->
+     <div class="border clearfix">
+       <div style=" margin-top:10px">
+       <form action="{:U('complain/exceljibao')}" method="post">
+       <span style="float:left;text-align:center;margin-left:10px;">
+          公司名<input type="text" name="company" placeholder="公司名称">
+       </span>
+       <span style="float:left;text-align:center;margin-left:10px;">
+          开始时间<input type="text" name="startime" placeholder="年/月/日">
+        </span>
+       <span style="float:left;text-align:center;margin-left:10px;">
+          结束时间<input type="text" name="overtime" placeholder="年/月/日">
+          </span>
+        <span style="float:left;text-align:center;margin-left:10px;">
+
+          <input type="submit" class="btn_search" value="报表导出"></input>
+        </span>
+      </form>
+        <!-- <a href="{:U('index/upfacilitator')}" id="member_add" class="btn btn-warning"><i class="icon-plus"></i>添加服务商</a> -->
+        <!-- <a href="{:U('complain/exceljibao')}" id="member_add" class="btn btn-warning">季报信息导出</a> -->
+        <!-- <a href="javascript:ovid()" class="btn btn-danger"><i class="icon-trash"></i>批量删除</a> -->
+       </span>
+
+       <span class="r_f" style="float:right">共：<b>{$count}</b>条</span>
+       </div>
+     </div>
+     <!---->
+     <div class="table_menu_list">
+       <table class="table table-striped table-bordered table-hover table_tr_td" id="sample-table">
+    <thead>
+     <tr>
+        <th>公司名称</th>
+        <!-- <th>公司法定代表人</th>
+        <th>公司地址</th>
+        <th>统计联系人电话</th> -->
+        <th>主营业务收入</th>
+        <th>软件和信息服务业务收入</th>
+        <th>研发投入经费</th>
+        <th>利润总额</th>
+        <th>税金总额</th>
+        <th>新产品产值</th>
+        <!-- <th>主营业务</th> -->
+        <!-- <th>代表业务</th> -->
+        <!-- <th>行业类别</th> -->
+        <!-- <th>新四军创业人员数</th> -->
+        <!-- <th>大学生创业者</th> -->
+        <!-- <th>大学生创业者大企业高管及其他连续创业者</th> -->
+        <!-- <th>科技人员创业者</th> -->
+        <!-- <th>留学归国人员创业者</th>
+        <th>高新技术企业</th> -->
+        <!-- <th>国省千人数量</th> -->
+        <!-- <th>硕士人数</th> -->
+        <!-- <th>本科人数</th> -->
+        <!-- <th>专科以及以下</th> -->
+        <!-- <th>专科以及以下中高级技术职称人员</th> -->
+        <!-- <th>中高级技术职称人员</th> -->
+        <!-- <th>开展合作的高校，省级以上研究院及行业协会个数</th>
+        <th>企业成果</th>
+        <th>科技孵化器</th> -->
+        <!-- <th>众创空间个数</th> -->
+        <!-- <th>众创空间面积</th> -->
+        <!-- <th>双创团队个数</th> -->
+        <!-- <th>创业创新基地建筑面积</th>
+        <th>政府补助项目名称</th>
+        <th>政府补助项目金额</th> -->
+        <th>备注说明</th>
+        <th>信息导出</th>
+        <!-- <th>房间号</th>
+        <th>缴税地</th> -->
+      </tr>
+    </thead>
+  <tbody>
+    <volist name="jibao" id="v">
+    <tr>
+          <td>{$v['company']}</td>
+          <td>{$v['imploproduct']}</td>
+          <td>{$v['infomaney']}</td>
+         <!--  <td>{$v['comform']}</td>
+          <td>{$v['counttel']}</td>
+          <td>{$v['onemaney']}</td>
+          <td>{$v['infomaney']}</td> -->
+          <td>{$v['developmaney']}</td>
+          <td>{$v['countmaney']}</td>
+          <td>{$v['shuijin']}</td>
+          <td>{$v['newproduct']}</td>
+        <!--   <td>{$v['imploproduct']}</td>
+          <td>{$v['dbproduct']}</td>
+          <td>{$v['tradetype']}</td>
+          <td>{$v['xinsijun']}</td>
+          <td>{$v['countstuden']}</td>
+          <td>{$v['tostart']}</td>
+          <td>{$v['kjchuangye']}</td>
+          <td>{$v['turtlecy']}</td> -->
+          <!-- <td>{$v['countpatent']}</td>
+          <td>{$v['ruanzhuzuo']}</td>
+           -->
+<!--           <td>{$v['gaoxin']}</td>
+          <td>{$v['kejizhongxiao']}</td>
+          <td>{$v['congye']}</td>
+          <td>{$v['guoxingqianren']}</td>
+          <td>{$v['shuoshi']}</td>
+          <td>{$v['benke']}</td>
+          <td>{$v['zhuanke']}</td>
+          <td>{$v['zgjjszc']}</td>
+          <td>{$v['kzhzdgx']}</td>
+          <td>{$v['qiyecg']}</td>
+          <td>{$v['fuhuaqi']}</td>
+          <td>{$v['zckjgs']}</td>
+          <td>{$v['zckjmj']}</td>
+          <td>{$v['sctdgs']}</td>
+          <td>{$v['cyjdjzmj']}</td>
+          <td>{$v['zfbzxm']}</td>
+          
+          <td>{$v['beizhu']}</td>
+          <td>{$v['homenumber']}</td>
+          <td>{$v['jiaoshuidi']}</td> -->
+          <td>{$v['zfbzje']}</td>
+          <td><a href="{:U('Complain/pulljibao',array('id'=>$v['id']))}">报表导出</a></td>
+    </tr>
+  </volist>
+      </tbody>
+  </table>
+  <div class="page">{$page}</div>
+   </div>
+  </div>
+ </div>
+</div>
+  </block>
